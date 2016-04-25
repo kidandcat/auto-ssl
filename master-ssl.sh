@@ -1,4 +1,8 @@
 #! /bin/bash
+if [[ $UID != 0 ]]; then
+    echo "Please run this script with sudo:"
+    sudo -i
+fi
 if ! type "npm" > /dev/null; then
   apt-get install --yes npm
 fi
