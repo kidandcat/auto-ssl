@@ -1,4 +1,5 @@
 # auto-ssl
 
-´´´ chmod +x master-ssl.sh ´´´
-´´´ ./master-ssl.sh ´´´
+chmod +x master-ssl.sh
+
+./master-ssl.sh
