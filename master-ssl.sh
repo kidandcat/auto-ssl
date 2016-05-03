@@ -22,7 +22,7 @@ logging: true,
 ports: {
     443: {
       router: {
-      	'*' : 127.0.0.1:80
+      	'*' : 80
       },
       ssl : {
         key: '/etc/master-ssl/netelip.key',
