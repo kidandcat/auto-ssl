@@ -2,7 +2,7 @@
 
 ## Usage
 
-wget -O - https://cdn.rawgit.com/kidandcat/auto-ssl/master/master-ssl.sh | bash
+```wget -O - https://cdn.rawgit.com/kidandcat/auto-ssl/master/master-ssl.sh | bash```
 
 
 
