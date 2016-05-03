@@ -13,8 +13,8 @@ a2dismod ssl
 service apache2 restart
 fuser -k 443/tcp
 mkdir /etc/master-ssl
-cp netelip.pem /etc/master-ssl/
-cp netelip.key /etc/master-ssl/
+cp cert.pem /etc/master-ssl/
+cp cert.key /etc/master-ssl/
 
 cat <<EOF > /etc/master-ssl/http.conf
 {
